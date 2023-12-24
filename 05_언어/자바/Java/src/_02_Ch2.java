@@ -22,8 +22,7 @@ public class _02_Ch2 {
 
         System.out.println(year);
         System.out.println(age);
-
-        System.out.println("-------------");
+        
     }
 
 }
