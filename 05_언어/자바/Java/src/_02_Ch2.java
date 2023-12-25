@@ -54,7 +54,15 @@ public class _02_Ch2 {
         // 자료형 : 값의 종류에 따라 값이 저장될 공간의 크기와 저장형식을 정의한 것
         // 문자형(char), 정수형(byte, short, int long), 실수형(float, double) 등
         // 기본형 : 실제 값을 저장 / 참조형 : 객체의 주소를 저장
-        
-    }
 
+        // 기본형(primitive type)
+        // 논리형 : boolean(true / false)
+        // 문자형 : char(변수에 하나의 문자만 저장 가능)
+        // 정수형 : byte, short, int, long (주로 int 사용, byte는 이진 데이터를 short는 C언어와의 호환을 위해 추가)
+        // 실수형 : float, double (주로 double 사용)
+        // 1byte : boolean, byte
+        // 2byte : char, short
+        // 4byte : int, float
+        // 8byte : long, double
+    }
 }
