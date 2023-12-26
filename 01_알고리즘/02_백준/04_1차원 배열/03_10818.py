@@ -1,12 +1,12 @@
-# solution 1
-# n = int(input())
-# m = list(map(int, input().split()))
-# s = sorted(m)
-
-# print(s[0], s[-1])
-
-# solution 2
+# Solution 1
 n = int(input())
-numbers = list(map(int, input().split()))
+n_list = list(map(int, input().split()))
 
-print(min(numbers), max(numbers))
+print(min(n_list), max(n_list))
+
+# Solution 2
+n = int(input())
+n_list = list(map(int, input().split()))
+s = sorted(n_list)
+
+print(s[0], s[-1])

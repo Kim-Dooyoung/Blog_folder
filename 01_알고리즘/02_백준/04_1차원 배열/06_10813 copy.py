@@ -1,9 +1,8 @@
-N, M = map(int, input().split())
+n, m = map(int, input().split())
+basket = list(range(1, n+1))
 
-arr = list(range(N + 1))
-
-for _ in range(M):
+for x in range(m):
     i, j = map(int, input().split())
-    arr[i], arr[j] = arr[j], arr[i]
-
-print(*arr[1:])
+    basket[i-1], basket[j-1] = basket[j-1], basket[i-1]
+    
+print(basket)

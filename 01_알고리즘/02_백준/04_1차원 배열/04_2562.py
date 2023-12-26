@@ -1,5 +1,5 @@
-n = []
+a = []
 for i in range(9):
-    n.append(int(input()))
+    a.append(int(input()))
 
-print(max(n), n.index(max(n))+1)
+print(max(a), a.index(max(a))+1)
