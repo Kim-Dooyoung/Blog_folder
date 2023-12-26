@@ -1,3 +1,5 @@
+# solution 1
+
 n = int(input())
 v_list = list(map(int, input().split()))
 v = int(input())
