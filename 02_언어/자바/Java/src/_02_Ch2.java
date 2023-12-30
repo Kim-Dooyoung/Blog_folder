@@ -64,5 +64,7 @@ public class _02_Ch2 {
         // 2byte : char, short
         // 4byte : int, float
         // 8byte : long, double
+
+
     }
 }
