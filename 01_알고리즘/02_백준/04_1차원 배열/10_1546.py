@@ -1,8 +1,10 @@
 n = int(input())
-lst = list(map(int, input().split()))
-lst_2 = []
+score = list(map(int, input().split()))
+
+score = sorted(score)
+sum = 0
 
 for i in range(n):
-    lst_2.append(lst[i] / max(lst) * 100)
+    sum += (score[i]/score[-1]*100)
     
-print(sum(lst_2) / n)
+print(sum/n)
