@@ -10,7 +10,7 @@ public class _02_Ch2 {
         int x = 0, y = 0;
          위와 같은 방식도 사용 가능*/
 
-        // 2-1
+        // e)2-1
         int year = 0;
         int age = 14;
 
@@ -26,7 +26,7 @@ public class _02_Ch2 {
         // 두 변수의 값 교환하기
         // 변수를 하나 더 생성해서 임시 저장소로 사용
 
-        // 2-2
+        // e)2-2
         int x = 10, y = 20;
         int tmp = 0;
 
@@ -55,7 +55,7 @@ public class _02_Ch2 {
         // 문자형(char), 정수형(byte, short, int long), 실수형(float, double) 등
         // 기본형 : 실제 값을 저장 / 참조형 : 객체의 주소를 저장
 
-        // 기본형(primitive type)
+        // 2.1 기본형(primitive type)
         // 논리형 : boolean(true / false)
         // 문자형 : char(변수에 하나의 문자만 저장 가능)
         // 정수형 : byte, short, int, long (주로 int 사용, byte는 이진 데이터를 short는 C언어와의 호환을 위해 추가)
@@ -64,6 +64,9 @@ public class _02_Ch2 {
         // 2byte : char, short
         // 4byte : int, float
         // 8byte : long, double
+
+        // 2.2 상수와 리터럴
+        
 
 
     }
